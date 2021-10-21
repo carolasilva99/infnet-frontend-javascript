@@ -1,5 +1,3 @@
-// Faça um programa que peça as 4 notas bimestrais e mostre a média.
-
 function pedirNotasAoUsuario(quantidadeNotas) {
     const notas = []
 
@@ -11,21 +9,22 @@ function pedirNotasAoUsuario(quantidadeNotas) {
     return notas;
 }
 
-function calcularMedia(notas) {
-    const quantidadeNotas = notas.length
-    console.log(quantidadeNotas)
+function calcularMedia(notas) {5
+
+    const quantidadeNotas = parseFloat(notas.length)
     let soma = 0.0
 
-    for (const nota of notas) {
+    for (const nota in notas) {
         console.log("nota", nota)
         soma += nota
     }
-    console.log(soma)
+    console.log("soma: ", soma)
     return soma / quantidadeNotas
 }
 
 const quantidadeNotas = 4
 notas = pedirNotasAoUsuario(quantidadeNotas)
-console.log(notas)
 let media = calcularMedia(notas)
+console.log(notas)
+console.log(media)
 window.alert(`A média é ${media}`)

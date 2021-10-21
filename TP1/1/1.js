@@ -9,12 +9,12 @@ function pedirNotasAoUsuario(quantidadeNotas) {
     return notas;
 }
 
-function calcularMedia(notas) {5
+function calcularMedia(notas) {
 
     const quantidadeNotas = parseFloat(notas.length)
     let soma = 0.0
 
-    for (const nota in notas) {
+    for (const nota of notas) {
         soma += nota
     }
     return soma / quantidadeNotas

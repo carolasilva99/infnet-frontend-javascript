@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Jogo da memória</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <section>
+        <h1>Jogo da Memória</h1>
+        <button id="iniciarReiniciar" onclick="iniciarJogo()">INICIAR</button>
+        <button id="melhorTempo" onclick="mostrarMelhorTempo()">MELHOR TEMPO</button>
+    </section>
+    <section class="jogo-memoria">
+        <div class="carta" data-serie="teen-wolf" onclick="virarCarta(this)">
+            <img class="frente" src="img/teen-wolf.jpg" alt="Teen Wolf">
+            <img class="verso" src="img/netflix-logo.png" alt="Carta">
+        </div>
+
+        <div class="carta" data-serie="teen-wolf" onclick="virarCarta(this)">
+            <img class="frente" src="img/teen-wolf.jpg" alt="Teen Wolf">
+            <img class="verso" src="img/netflix-logo.png" alt="Carta">
+        </div>
+
+        <div class="carta" data-serie="how-i-met-your-mother" onclick="virarCarta(this)">
+            <img class="frente" src="img/how-i-met-your-mother.jpg" alt="How I Met Your Mother">
+            <img class="verso" src="img/netflix-logo.png" alt="Carta">
+        </div>
+
+        <div class="carta" data-serie="how-i-met-your-mother" onclick="virarCarta(this)">
+            <img class="frente" src="img/how-i-met-your-mother.jpg" alt="How I Met Your Mother">
+            <img class="verso" src="img/netflix-logo.png" alt="Carta">
+        </div>
+
+        <div class="carta" data-serie="the-umbrella-academy" onclick="virarCarta(this)">
+            <img class="frente" src="img/the-umbrella-academy.jpg" alt="The Umbrella Academy">
+            <img class="verso" src="img/netflix-logo.png" alt="Carta">
+        </div>
+
+        <div class="carta" data-serie="the-umbrella-academy" onclick="virarCarta(this)">
+            <img class="frente" src="img/the-umbrella-academy.jpg" alt="The Umbrella Academy">
+            <img class="verso" src="img/netflix-logo.png" alt="Carta">
+        </div>
+
+        <div class="carta" data-serie="anne-with-an-e" onclick="virarCarta(this)">
+            <img class="frente" src="img/anne-with-an-e.jpeg" alt="Anne With An E">
+            <img class="verso" src="img/netflix-logo.png" alt="Carta">
+        </div>
+
+        <div class="carta" data-serie="anne-with-an-e" onclick="virarCarta(this)">
+            <img class="frente" src="img/anne-with-an-e.jpeg" alt="Anne With An E">
+            <img class="verso" src="img/netflix-logo.png" alt="Carta">
+        </div>
+
+        <div class="carta" data-serie="this-is-us" onclick="virarCarta(this)">
+            <img class="frente" src="img/this-is-us.jpg" alt="This Is Us">
+            <img class="verso" src="img/netflix-logo.png" alt="Carta">
+        </div>
+
+        <div class="carta" data-serie="this-is-us" onclick="virarCarta(this)">
+            <img class="frente" src="img/this-is-us.jpg" alt="This Is Us">
+            <img class="verso" src="img/netflix-logo.png" alt="Carta">
+        </div>
+
+        <div class="carta" data-serie="sex-education" onclick="virarCarta(this)">
+            <img class="frente" src="img/sex-education.jpg" alt="Sex Education">
+            <img class="verso" src="img/netflix-logo.png" alt="Carta">
+        </div>
+
+        <div class="carta" data-serie="sex-education" onclick="virarCarta(this)">
+            <img class="frente" src="img/sex-education.jpg" alt="Sex Education">
+            <img class="verso" src="img/netflix-logo.png" alt="Carta">
+        </div>
+
+        <div class="carta" data-serie="supernatural" onclick="virarCarta(this)">
+            <img class="frente" src="img/supernatural.jpg" alt="Supernatural">
+            <img class="verso" src="img/netflix-logo.png" alt="Carta">
+        </div>
+
+        <div class="carta" data-serie="supernatural" onclick="virarCarta(this)">
+            <img class="frente" src="img/supernatural.jpg" alt="Supernatural">
+            <img class="verso" src="img/netflix-logo.png" alt="Carta">
+        </div>
+
+        <div class="carta" data-serie="the-vampire-diaries" onclick="virarCarta(this)">
+            <img class="frente" src="img/the-vampire-diaries.jpg" alt="The Vampire Diaries">
+            <img class="verso" src="img/netflix-logo.png" alt="Carta">
+        </div>
+
+        <div class="carta" data-serie="the-vampire-diaries" onclick="virarCarta(this)">
+            <img class="frente" src="img/the-vampire-diaries.jpg" alt="The Vampire Diaries">
+            <img class="verso" src="img/netflix-logo.png" alt="Carta">
+        </div>
+
+        <div class="carta" data-serie="red-band-society" onclick="virarCarta(this)">
+            <img class="frente" src="img/red-band-society.jpg" alt="Red Band Society">
+            <img class="verso" src="img/netflix-logo.png" alt="Carta">
+        </div>
+
+        <div class="carta" data-serie="red-band-society" onclick="virarCarta(this)">
+            <img class="frente" src="img/red-band-society.jpg" alt="Red Band Society">
+            <img class="verso" src="img/netflix-logo.png" alt="Carta">
+        </div>
+
+    </section>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
